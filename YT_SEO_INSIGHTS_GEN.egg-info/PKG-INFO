@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: YT-SEO-INSIGHTS-GEN
+Version: 1.0.0
+Author: Rashmi
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: openai
+Requires-Dist: google-generativeai
+Requires-Dist: google-genai
+Requires-Dist: requests
+Dynamic: author
+Dynamic: requires-dist

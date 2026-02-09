@@ -1,0 +1,13 @@
+prefix=D:/Industry Grade Projects - Krish Naik/Youtube SEO Insights Generator/Youtube_SEO/venv/Library
+exec_prefix=D:/Industry Grade Projects - Krish Naik/Youtube SEO Insights Generator/Youtube_SEO/venv/Library
+libdir=D:/Industry Grade Projects - Krish Naik/Youtube SEO Insights Generator/Youtube_SEO/venv/Library/lib
+sharedlibdir=D:/Industry Grade Projects - Krish Naik/Youtube SEO Insights Generator/Youtube_SEO/venv/Library/lib
+includedir=D:/Industry Grade Projects - Krish Naik/Youtube SEO Insights Generator/Youtube_SEO/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

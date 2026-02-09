@@ -1,0 +1,5 @@
+2026-02-06 13:56:32,190 - INFO - VideoExtractor Class Initialized
+2026-02-06 13:56:32,190 - INFO - Processing URL https://www.youtube.com/watch?v=76viwqWKaGw
+2026-02-06 13:56:32,190 - INFO - Extracted video ID : 76viwqWKaGw
+2026-02-06 13:56:32,190 - INFO - Fetching the metadata
+2026-02-06 13:56:33,348 - INFO - Extracted metadata successfully..

@@ -1,0 +1,40 @@
+2026-02-09 17:35:31,238 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:35:31,247 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:35:31,247 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:35:31,247 - INFO - Fetching the metadata
+2026-02-09 17:35:32,054 - INFO - Extracted metadata successfully..
+2026-02-09 17:35:35,139 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:35:35,139 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:35:35,139 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:35:35,139 - INFO - Fetching the metadata
+2026-02-09 17:35:36,205 - INFO - Extracted metadata successfully..
+2026-02-09 17:35:36,255 - INFO - SEOEngine initialized successfully... 
+2026-02-09 17:35:36,255 - ERROR - Unexpected Error : 'NoneType' object has no attribute 'tb_frame'
+2026-02-09 17:35:47,770 - INFO - API Key added to environment variables.
+2026-02-09 17:35:47,771 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:35:47,771 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:35:47,771 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:35:47,771 - INFO - Fetching the metadata
+2026-02-09 17:35:48,838 - INFO - Extracted metadata successfully..
+2026-02-09 17:35:56,843 - INFO - API Key added to environment variables.
+2026-02-09 17:35:56,845 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:35:56,845 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:35:56,846 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:35:56,846 - INFO - Fetching the metadata
+2026-02-09 17:35:57,921 - INFO - Extracted metadata successfully..
+2026-02-09 17:35:57,921 - INFO - SEOEngine initialized successfully... 
+2026-02-09 17:35:58,282 - INFO - OpenAI Client connected
+2026-02-09 17:35:58,282 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 17:35:58,282 - ERROR - Unexpected Error at SEO Insights Generation : Models.generate_content() got an unexpected keyword argument 'system_instruction'
+2026-02-09 17:35:58,283 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : Models.generate_content() got an unexpected keyword argument 'system_instruction' |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98
+2026-02-09 17:57:37,888 - INFO - API Key added to environment variables.
+2026-02-09 17:57:37,888 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:57:37,888 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:57:37,893 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:57:37,893 - INFO - Fetching the metadata
+2026-02-09 17:57:39,193 - INFO - Extracted metadata successfully..
+2026-02-09 17:57:39,210 - INFO - SEOEngine initialized successfully... 
+2026-02-09 17:57:39,632 - INFO - OpenAI Client connected
+2026-02-09 17:57:39,632 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 17:57:39,633 - ERROR - Unexpected Error at SEO Insights Generation : Models.generate_content() got an unexpected keyword argument 'system_instruction'
+2026-02-09 17:57:39,634 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : Models.generate_content() got an unexpected keyword argument 'system_instruction' |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98

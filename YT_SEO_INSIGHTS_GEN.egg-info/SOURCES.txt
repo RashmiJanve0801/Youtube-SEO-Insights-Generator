@@ -1,0 +1,7 @@
+setup.py
+YT_SEO_INSIGHTS_GEN.egg-info/PKG-INFO
+YT_SEO_INSIGHTS_GEN.egg-info/SOURCES.txt
+YT_SEO_INSIGHTS_GEN.egg-info/dependency_links.txt
+YT_SEO_INSIGHTS_GEN.egg-info/requires.txt
+YT_SEO_INSIGHTS_GEN.egg-info/top_level.txt
+src/__init__.py

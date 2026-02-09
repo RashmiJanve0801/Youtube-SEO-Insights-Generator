@@ -1,0 +1,35 @@
+2026-02-09 17:20:27,306 - INFO - API Key added to environment variables.
+2026-02-09 17:20:37,982 - INFO - API Key added to environment variables.
+2026-02-09 17:20:37,982 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:20:37,982 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:20:37,982 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:20:37,982 - INFO - Fetching the metadata
+2026-02-09 17:20:39,367 - INFO - Extracted metadata successfully..
+2026-02-09 17:20:47,739 - INFO - API Key added to environment variables.
+2026-02-09 17:20:47,739 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:20:47,739 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:20:47,783 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:20:47,783 - INFO - Fetching the metadata
+2026-02-09 17:20:48,913 - INFO - Extracted metadata successfully..
+2026-02-09 17:20:48,919 - INFO - SEOEngine initialized successfully... 
+2026-02-09 17:20:49,419 - INFO - OpenAI Client connected
+2026-02-09 17:20:49,419 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 17:20:49,419 - ERROR - Unexpected Error at SEO Insights Generation : Models.generate_content() got an unexpected keyword argument 'generation_config'
+2026-02-09 17:20:49,419 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : Models.generate_content() got an unexpected keyword argument 'generation_config' |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 97
+2026-02-09 17:22:18,339 - INFO - API Key added to environment variables.
+2026-02-09 17:22:18,342 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:22:18,342 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:22:18,342 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:22:18,342 - INFO - Fetching the metadata
+2026-02-09 17:22:19,512 - INFO - Extracted metadata successfully..
+2026-02-09 17:22:26,112 - INFO - API Key added to environment variables.
+2026-02-09 17:22:26,112 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:22:26,112 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:22:26,112 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:22:26,112 - INFO - Fetching the metadata
+2026-02-09 17:22:27,212 - INFO - Extracted metadata successfully..
+2026-02-09 17:22:27,218 - INFO - SEOEngine initialized successfully... 
+2026-02-09 17:22:27,623 - INFO - OpenAI Client connected
+2026-02-09 17:22:27,623 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 17:22:27,623 - ERROR - Unexpected Error at SEO Insights Generation : Models.generate_content() got an unexpected keyword argument 'generation_config'
+2026-02-09 17:22:27,623 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : Models.generate_content() got an unexpected keyword argument 'generation_config' |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 97

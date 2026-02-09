@@ -1,0 +1,129 @@
+2026-02-09 17:59:25,947 - INFO - API Key added to environment variables.
+2026-02-09 17:59:31,275 - INFO - API Key added to environment variables.
+2026-02-09 17:59:31,275 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:59:31,275 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:59:31,275 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:59:31,275 - INFO - Fetching the metadata
+2026-02-09 17:59:32,184 - INFO - Extracted metadata successfully..
+2026-02-09 17:59:35,236 - INFO - API Key added to environment variables.
+2026-02-09 17:59:35,236 - INFO - VideoExtractor Class Initialized
+2026-02-09 17:59:35,236 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 17:59:35,288 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 17:59:35,288 - INFO - Fetching the metadata
+2026-02-09 17:59:36,368 - INFO - Extracted metadata successfully..
+2026-02-09 17:59:36,376 - INFO - SEOEngine initialized successfully... 
+2026-02-09 17:59:36,748 - INFO - OpenAI Client connected
+2026-02-09 17:59:36,748 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 17:59:36,749 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-09 17:59:36,894 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 404 Not Found"
+2026-02-09 17:59:36,894 - ERROR - Unexpected Error at SEO Insights Generation : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-09 17:59:36,895 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}} |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98
+2026-02-09 18:00:14,440 - INFO - API Key added to environment variables.
+2026-02-09 18:00:14,442 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:00:14,442 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:00:14,443 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:00:14,443 - INFO - Fetching the metadata
+2026-02-09 18:00:15,550 - INFO - Extracted metadata successfully..
+2026-02-09 18:00:20,842 - INFO - API Key added to environment variables.
+2026-02-09 18:00:20,844 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:00:20,844 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:00:20,844 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:00:20,844 - INFO - Fetching the metadata
+2026-02-09 18:00:21,855 - INFO - Extracted metadata successfully..
+2026-02-09 18:00:21,857 - INFO - SEOEngine initialized successfully... 
+2026-02-09 18:00:22,188 - INFO - OpenAI Client connected
+2026-02-09 18:00:22,188 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 18:00:22,188 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-09 18:00:22,318 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 18:00:22,318 - ERROR - Unexpected Error at SEO Insights Generation : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 38.51206941s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}
+2026-02-09 18:00:22,318 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 38.51206941s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}} |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98
+2026-02-09 18:04:57,493 - INFO - API Key added to environment variables.
+2026-02-09 18:04:57,494 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:04:57,494 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:04:57,494 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:04:57,494 - INFO - Fetching the metadata
+2026-02-09 18:04:58,687 - INFO - Extracted metadata successfully..
+2026-02-09 18:05:02,736 - INFO - API Key added to environment variables.
+2026-02-09 18:05:02,738 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:05:02,738 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:05:02,738 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:05:02,739 - INFO - Fetching the metadata
+2026-02-09 18:05:03,764 - INFO - Extracted metadata successfully..
+2026-02-09 18:05:03,773 - INFO - SEOEngine initialized successfully... 
+2026-02-09 18:05:04,147 - INFO - OpenAI Client connected
+2026-02-09 18:05:04,147 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 18:05:04,147 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-09 18:05:04,310 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 18:05:04,312 - ERROR - Unexpected Error at SEO Insights Generation : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 56.530292458s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}
+2026-02-09 18:05:04,312 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 56.530292458s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}} |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98
+2026-02-09 18:08:10,261 - INFO - API Key added to environment variables.
+2026-02-09 18:08:10,262 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:08:10,262 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:08:10,262 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:08:10,263 - INFO - Fetching the metadata
+2026-02-09 18:08:12,510 - INFO - Extracted metadata successfully..
+2026-02-09 18:08:13,868 - INFO - API Key added to environment variables.
+2026-02-09 18:08:13,871 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:08:13,871 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:08:13,871 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:08:13,871 - INFO - Fetching the metadata
+2026-02-09 18:08:15,116 - INFO - Extracted metadata successfully..
+2026-02-09 18:08:15,125 - INFO - SEOEngine initialized successfully... 
+2026-02-09 18:08:15,599 - INFO - OpenAI Client connected
+2026-02-09 18:08:15,599 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 18:08:15,599 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-09 18:08:24,789 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 18:08:24,792 - ERROR - Unexpected Error at SEO Insights Generation : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-09 18:08:24,793 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}} |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98
+2026-02-09 18:09:08,722 - INFO - API Key added to environment variables.
+2026-02-09 18:09:08,724 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:09:08,724 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:09:08,724 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:09:08,725 - INFO - Fetching the metadata
+2026-02-09 18:09:10,232 - INFO - Extracted metadata successfully..
+2026-02-09 18:09:10,244 - INFO - SEOEngine initialized successfully... 
+2026-02-09 18:09:10,699 - INFO - OpenAI Client connected
+2026-02-09 18:09:10,699 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 18:09:10,699 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-09 18:09:14,689 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 18:09:14,691 - ERROR - Unexpected Error at SEO Insights Generation : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-09 18:09:14,692 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}} |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98
+2026-02-09 18:09:51,740 - INFO - API Key added to environment variables.
+2026-02-09 18:09:51,741 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:09:51,742 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:09:51,742 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:09:51,742 - INFO - Fetching the metadata
+2026-02-09 18:09:52,895 - INFO - Extracted metadata successfully..
+2026-02-09 18:09:54,698 - INFO - API Key added to environment variables.
+2026-02-09 18:09:54,700 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:09:54,700 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:09:54,701 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:09:54,701 - INFO - Fetching the metadata
+2026-02-09 18:09:57,005 - INFO - Extracted metadata successfully..
+2026-02-09 18:09:57,014 - INFO - SEOEngine initialized successfully... 
+2026-02-09 18:09:57,364 - INFO - OpenAI Client connected
+2026-02-09 18:09:57,364 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 18:09:57,364 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-09 18:10:02,079 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-02-09 18:10:02,080 - ERROR - Unexpected Error at SEO Insights Generation : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-02-09 18:10:02,081 - ERROR - Unexpected Error : Unexpected Error at SEO Insights Generation | Error : 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}} |File name : D:\Industry Grade Projects - Krish Naik\Youtube SEO Insights Generator\Youtube_SEO\src\core\seo_engine.py |Line no. : 98
+2026-02-09 18:11:21,811 - INFO - API Key added to environment variables.
+2026-02-09 18:11:30,504 - INFO - API Key added to environment variables.
+2026-02-09 18:11:30,506 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:11:30,506 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:11:30,506 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:11:30,506 - INFO - Fetching the metadata
+2026-02-09 18:11:32,632 - INFO - Extracted metadata successfully..
+2026-02-09 18:11:35,544 - INFO - API Key added to environment variables.
+2026-02-09 18:11:35,547 - INFO - VideoExtractor Class Initialized
+2026-02-09 18:11:35,548 - INFO - Processing URL https://www.youtube.com/watch?v=nCglvjJkU8A
+2026-02-09 18:11:35,548 - INFO - Extracted video ID : nCglvjJkU8A
+2026-02-09 18:11:35,548 - INFO - Fetching the metadata
+2026-02-09 18:11:36,692 - INFO - Extracted metadata successfully..
+2026-02-09 18:11:36,703 - INFO - SEOEngine initialized successfully... 
+2026-02-09 18:11:37,128 - INFO - OpenAI Client connected
+2026-02-09 18:11:37,141 - INFO - Starting the SEO Insights Generator... 
+2026-02-09 18:11:37,141 - INFO - AFC is enabled with max remote calls: 10.
+2026-02-09 18:11:44,032 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-09 18:11:44,037 - INFO - Raw Output Generated
+2026-02-09 18:11:44,038 - INFO - SEO Insights Generated successfully.. 
