@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: llmops-app
-          image: rashmijanve/yt-seo:v45455545
+          image: rashmijanve/yt-seo:v5
           ports:
             - containerPort: 8501
