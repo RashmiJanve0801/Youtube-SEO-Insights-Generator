@@ -84,7 +84,7 @@ if data:
 
     st.subheader("AI Generated Timestamps")
     for ts in data["timestamps"]:
-        st.markdown(f"**{ts['time']} - {ts["description"]}**")
+        st.markdown(f"**{ts['time']} - {ts['description']}**")
 
     st.info("Generated Timestamps for the video")
 
