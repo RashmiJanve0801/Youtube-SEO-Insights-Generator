@@ -12,7 +12,7 @@ load_dotenv()
 
 logger = get_logger(__name__)
 
-st.set_page_config(page_title="AI YT SEO Insights", layout="wide")
+st.set_page_config(page_title="AI GEN YT SEO Insights", layout="wide")
 st.title("YT SEO Insights Generator")
 st.write("Generate Tags, Audience Analysis, Timestamps AI Generated, Flaws Suggestions")
 
