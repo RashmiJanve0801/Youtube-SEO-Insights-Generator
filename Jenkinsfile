@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_REPO = "dataguru97/evolue-seo"    
+        DOCKER_HUB_REPO = "rashmijanve/yt-seo"    
         DOCKER_HUB_CREDENTIALS_ID = "dockerhub-token"
         IMAGE_TAG = "v${BUILD_NUMBER}"
     }
@@ -15,58 +15,58 @@ pipeline {
             }
         }
 
-        // stage('Build Docker Image') {
-        //     steps {
-        //         script {
-        //             echo 'Building Docker image...'
-        //             dockerImage = docker.build("${DOCKER_HUB_REPO}:${IMAGE_TAG}")
-        //         }
-        //     }
-        // }
+    stage('Build Docker Image') {
+        steps {
+            script {
+                echo 'Building Docker image...'
+                dockerImage = docker.build("${DOCKER_HUB_REPO}:${IMAGE_TAG}")
+            }
+        }
+    }
 
-        // stage('Push Image to DockerHub') {
-        //     steps {
-        //         script {
-        //             echo 'Pushing Docker image to DockerHub...'
-        //             docker.withRegistry('https://registry.hub.docker.com' , "${DOCKER_HUB_CREDENTIALS_ID}") {
-        //                 dockerImage.push("${IMAGE_TAG}")
-        //         }
-        //     }
-        // }
-        // }
+    stage('Push Image to DockerHub') {
+        steps {
+            script {
+                echo 'Pushing Docker image to DockerHub...'
+                docker.withRegistry('https://registry.hub.docker.com' , "${DOCKER_HUB_CREDENTIALS_ID}") {
+                    dockerImage.push("${IMAGE_TAG}")
+            }
+        }
+    }
+    }
 
-        // stage('Update Deployment YAML with New Tag') {
-        //     steps {
-        //         script {
-        //             sh """
-        //             sed -i 's|image: dataguru97/evolue-seo:.*|image: dataguru97/evolue-seo:${IMAGE_TAG}|' manifests/deployment.yaml
-        //             """
-        //         }
-        //     }
-        // }
+    stage('Update Deployment YAML with New Tag') {
+        steps {
+            script {
+                sh """
+                sed -i 's|image: rashmijanve/yt-seo:.*|image: rashmijanve/yt-seo:${IMAGE_TAG}|' manifests/deployment.yaml
+                """
+            }
+        }
+    }
 
-        // stage('Commit Updated YAML') {
-        //     steps {
-        //         script {
-        //             withCredentials([
-        //                 usernamePassword(
-        //                     credentialsId: 'github-token',
-        //                     usernameVariable: 'GIT_USER',
-        //                     passwordVariable: 'GIT_PASS'
-        //                 )
-        //             ]) {
-        //                 sh '''
-        //                 git config user.name "data-guru0"
-        //                 git config user.email "gyrogodnon@gmail.com"
-        //                 git add manifests/deployment.yaml
-        //                 git commit -m "Update image tag to ${IMAGE_TAG}" || echo "No changes to commit"
-        //                 git push https://${GIT_USER}:${GIT_PASS}@github.com/data-guru0/EVOLVUE-YT-SEO-INSIGHTS-GEN.git HEAD:main
-        //                 '''
+    stage('Commit Updated YAML') {
+        steps {
+            script {
+                withCredentials([
+                    usernamePassword(
+                        credentialsId: 'github-token',
+                        usernameVariable: 'GIT_USER',
+                        passwordVariable: 'GIT_PASS'
+                    )
+                ]) {
+                    sh '''
+                    git config user.name "RashmiJanve0801"
+                    git config user.email "rashmijanve0801@gmail.com"
+                    git add manifests/deployment.yaml
+                    git commit -m "Update image tag to ${IMAGE_TAG}" || echo "No changes to commit"
+                    git push https://${GIT_USER}:${GIT_PASS}@github.com/RashmiJanve0801/Youtube-SEO-Insights-Generator.git HEAD:main
+                    '''
 
-        //             }
-        //         }
-        //     }
-        // }
+                }
+            }
+        }
+    }
 
         // stage('Install Kubectl & ArgoCD CLI Setup') {
         //     steps {
