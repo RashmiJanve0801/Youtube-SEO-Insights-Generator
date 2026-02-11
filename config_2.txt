@@ -1,0 +1,3 @@
+cat /home/rashmijanve0801/.minikube/ca.crt | base64 -w 0; echo
+cat /home/rashmijanve0801/.minikube/profiles/minikube/client.crt | base64 -w 0; echo
+cat /home/rashmijanve0801/.minikube/profiles/minikube/client.key | base64 -w 0; echo
